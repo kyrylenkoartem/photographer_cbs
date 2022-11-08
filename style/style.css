@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3,
+h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #101010;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+.logo__container {
+    padding: 13.5px 0;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    line-height: 23px;
+    letter-spacing: 0.05em;
+}
+
+.nav__item + .nav__item {
+    margin-left: 54px;
+}
+
+.contacts a {
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
+
+.first__section__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name__column {
+    margin-top: 120px;
+}
+
+.title h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0.1em;
+    color: #232323;
+}
+
+.profession p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #101010;
+    margin-top: 20px;
+}
+
+.booking-btn {
+    width: 336px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 60px;
+}
+
+.booking-btn:hover {
+    background-color: #A52424;
+    color:#fff;
+}
+
+.booking-btn:active {
+    opacity: .3;
+}
+
+.about__me {
+    margin-top: 150px;
+}
+
+.about__me__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__column {
+    margin-right: 140px;
+}
+
+.subtitle h3 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+}
+
+.first {
+    width: 343px;
+    height: 560px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-top: 45.5px;
+}
+
+.first img {
+    position: absolute;
+    top: 49px;
+    left: 99px;
+}
+
+.photo__bg p {
+    position: absolute;
+    top: 470px;
+    left: 97px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
+
+.right__column {
+    margin-top: 78px;
+}
+
+.greetings p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
+
+.about__me__text {
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    text-align-last: left;
+    margin-top: 21px;
+}
+
+.second {
+    width: 567px;
+    height: 330px;
+    background-color: #fff;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-top: 7px;
+    margin-left: 100px;
+}
+
+.second img {
+    position: absolute;
+    top: 31px;
+    right: 32px;
+}
+
+.portfolio__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.portfolio__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.portfolio__item {
+    max-width: 377px;
+}
+
+.session__name h4 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #101010;
+    margin-top: 20px;
+}
+
+.session__desc p {
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #101010;
+    margin-top: 10px;
+}
+
+.all__photo-btn {
+    width: 202px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 20px;
+}
+
+.all__photo-btn:hover {
+    background-color: #A52424;
+    color:#fff;
+}
+
+.all__photo-btn:active {
+    opacity: .3;
+}
+
+.prices {
+    margin-top: 150px;
+}
+
+.prices__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.price__bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 509px;
+    height: 467px;
+    position: relative;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    margin-top: 153px;
+}
+
+.price__bg img {
+    position: absolute;
+    top: -103px;
+    left: 110px;
+}
+
+.service__name h4 {
+    position: absolute;
+    top: 217px;
+    left: 177px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #A52424;
+}
+
+.service__items {
+    position: absolute;
+    top: 271px;
+    left: 40px;
+}
+
+.service__item {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__item p {
+    line-height: 22px;
+    color: #232323;
+    margin-top: 10px;
+}
+
+.price__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.price__container p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #A52424;
+}
+
+.book__now-btn {
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.book__now-btn:hover {
+    background-color: #A52424;
+    color:#fff;
+}
+
+.book__now-btn:active {
+    opacity: .3;
+}
+
+.booking {
+    margin-top: 150px;
+}
+
+.booking__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.column__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.photo__column {
+    display: flex;
+    margin-top: 97px;
+}
+
+.second__img {
+    position: relative;
+    top: -47px;
+    right: 30px;
+}
+
+.form__column {
+    margin-top: 57px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer__name {
+    width: 476px;
+    height: 60px;
+    padding-left: 15px;
+    outline: none;
+    border: 0.5px solid lightgray;
+}
+
+.email {
+    height: 60px;
+    margin-top: 40px;
+    padding-left: 15px;
+    outline: none;
+    border: 0.5px solid lightgray;
+}
+
+.textarea {
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    outline: none;
+    resize: none;
+    border: 0.5px solid lightgray;
+}
+
+.send-btn {
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 40px;
+}
+
+.send-btn:hover {
+    background-color: #A52424;
+    color:#fff;
+}
+
+.send-btn:active {
+    opacity: .3;
+}
+
+.footer {
+    margin-top: 50px;
+    border-top: 0.3px solid lightgray;
+}
+
+.footer__inner {
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.icon + .icon {
+    margin-left: 54px;
+}
+
+.contacts a {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
